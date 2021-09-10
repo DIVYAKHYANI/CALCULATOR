@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    
+    
+    <style>
+        table {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body bgcolor="lightgreen" align="center">
+    
+    <br>
+    <br>
+    <table class="tableclass" align="center">
+        <tr>
+            <th>Calculator</th>
+
+        </tr>
+        <td>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('-')">-</button>
+        </td>
+        <tr>
+            <td>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearScreen()">AC</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button"  id="inputID">
+
+            </td>
+        </tr>
+
+    </table>
+    <br>
+
+    <input type="text" value="Hope you are fun, calculating">
+</body>
+
+</html>
